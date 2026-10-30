@@ -43,7 +43,7 @@ app.all(/.*/, (req, res) => {
   return res.status(404).json({ message: "Not found" });
 });
 
-// Démarrage du serveur
+// Démarrage du serveur Vinted sur le port 3000
 app.listen(3000, () => {
   console.log("Vinted server started 💲");
 });
